@@ -3,7 +3,7 @@
 Random order multiple choice test in terminal for studying
  
 Example CSV File:
- El Lapiz,The Pencil
+ El Lapiz,The Pencil\n
  Noligrafo,The Pen
  La Cara,Face
  Toma,Take
