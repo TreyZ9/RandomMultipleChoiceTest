@@ -1,4 +1,5 @@
 
+#include <Windows.h>
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -182,11 +183,13 @@ int main()
 			answeredIncorrect++;
 		}
 		std::cout << std::endl;
+
+		Sleep(2000);
+		system("cls");
 	}
 
 	std::cout << std::endl;
-	std::cout << "Accuracy: " << answeredCorrect << "/" << answeredIncorrect << std::endl;
+	std::cout << "Accuracy: " << answeredCorrect << "/" << answeredIncorrect + answeredCorrect << std::endl;
 
 	return 0;
-
 }
